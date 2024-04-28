@@ -1,5 +1,9 @@
-Discord Webhook Spammer
-👑 Version - 1
+📩 Discord Webhook Spammer
+
+👑 Version - 0.1
+
 ⚜️ Very Fast
+
 ☘️ Easy To Use
+
 🔗 https://discord.gg/rgh
