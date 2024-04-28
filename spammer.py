@@ -3,6 +3,10 @@ Credits: Webhook spammer made by 0vhh
 Discord: 0vhh
 Github: 0vhh
 """
+#imports
+from dhooks import Webhook
+import time
+
 print("""
             ...                            
              ;::::;                           
@@ -28,10 +32,6 @@ print("""
                                   Made by: 0vhh
                                   Github: 0vhh
 """)
-
-#imports
-from dhooks import Webhook
-import time
 
 #prompts
 message = input("What do you want to spam?: ")
