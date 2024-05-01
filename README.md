@@ -8,6 +8,6 @@
 
 ✔️ Working
 
-🚀 Set Dealy To 0 For Better Results
+🚀 Set Delay To 0 For Better Results
 
 🔗 https://discord.gg/rgh
