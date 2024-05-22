@@ -1,6 +1,6 @@
 📩 Discord Webhook Spammer
 
-👑 Version - 0.1
+👑 Version - 0.2
 
 ⚜️ Very Fast
 
