@@ -10,4 +10,4 @@
 
 🚀 Set Delay To 0 For Better Results
 
-🔗 https://discord.gg/rgh
+🔗 https://discord.gg/vsll
