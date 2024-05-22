@@ -2,6 +2,7 @@
 Credits: Webhook spammer made by 0vhh
 Discord: 0vhh
 Github: 0vhh
+Discord Server: discord.gg/vsll
 """
 #imports
 from dhooks import Webhook
@@ -31,6 +32,7 @@ print("""
    ::::::`:::::;'  /  /   `#                                     
                                   Made by: 0vhh
                                   Github: 0vhh
+                                  Discord Server: discord.gg/vsll
 """)
 
 #prompts
