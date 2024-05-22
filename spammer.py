@@ -5,31 +5,20 @@ Github: 0vhh
 Discord Server: discord.gg/vsll
 """
 #imports
+import ctypes
 from dhooks import Webhook
 import time
 
+# Set console title
+ctypes.windll.kernel32.SetConsoleTitleW("Webhook Spammer | by 0vhh")
+
 print("""
-            ...                            
-             ;::::;                           
-           ;::::; :;                          
-         ;:::::'   :;                         
-        ;:::::;     ;.                        
-     ,:::::'       ;           OOO\         
-       ::::::;       ;          OOOOO\        
-       ;:::::;       ;         OOOOOOOO       
-    ,;::::::;     ;'         / OOOOOOO      
-    ;:::::::::`.,,,;.        /  / DOOOOOO    
-.';:::::::::::::::::;,     /  /     DOOOO   
-,::::::;::::::;;;;::::;,   /  /        DOOO  
-;`::::::`'::::::;;;:::::,#/  /          DOOO 
-:`:::::::`;::::::;;::: ;::#  /            DOOO
-::`:::::::`;:::::::: ;::::# /              DOO
- `:`:::::::`;:::::: ;::::::#/               DOO
- :::`:::::::`;; ;:::::::::##                OO
- ::::`:::::::`;::::::::;:::#                OO
- `:::::`::::::::::::;'`:;::#                O 
-  `:::::`::::::::;' /  / `:#                  
-   ::::::`:::::;'  /  /   `#                                     
+ _    ___                  __
+| |  / (_)______  ______ _/ /
+| | / / / ___/ / / / __ `/ / 
+| |/ / (__  ) /_/ / /_/ / /  
+|___/_/____/\__,_/\__,_/_/   
+                                            
                                   Made by: 0vhh
                                   Github: 0vhh
                                   Discord Server: discord.gg/vsll
@@ -44,6 +33,7 @@ image_url = input("Enter the URL to the image file (optional): ")
 
 #webhook spamming time
 start_time = time.time()
+sent_webhooks = 0
 for i in range(num_webhooks):
     start_loop_time = time.time()
     if image_url:
@@ -52,7 +42,8 @@ for i in range(num_webhooks):
         webhookurl.send(message)
     end_loop_time = time.time()
     loop_time = end_loop_time - start_loop_time
-    print(f"Sent webhook {i+1} of {num_webhooks} in {loop_time:.2f} seconds. join discord.gg/rgh")
+    sent_webhooks += 1
+    print(f"Sent {sent_webhooks} webhook(s) out of {num_webhooks} in {loop_time:.2f} seconds. join discord.gg/rgh")
     time.sleep(delay)
 end_time = time.time()
 total_time = end_time - start_time
